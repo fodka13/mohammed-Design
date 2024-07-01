@@ -1020,7 +1020,7 @@ h5 {
     #logos .row {
 
         grid-template-columns: repeat(2, 0.2fr);
-        column-gap: 15rem;
+        column-gap: 7rem;
     }
 
     #home .home-content .row {
@@ -1263,6 +1263,14 @@ h5 {
         font-size: 20px;
         padding: 10px;
     
+    }
+    #call .call-content h2{
+        font-size: 28px;
+        
+    }
+    #call .call-content p{
+        margin: 10px 0;
+        font-size: 14px;
     }
     
 }
