@@ -49,6 +49,7 @@ p {
     font-size: 14px;
 }
 
+
 .primry-teax {
     color: var(--bb);
 }
@@ -1693,183 +1694,11 @@ h5 {
     }
 
     #logos .row .col img {
-        max-width: 250px;
-    }
-
-    #logos .logo .it {
         max-width: 300px;
     }
 
-    #home .home-content img {
-        display: none;
-
-    }
-
-    #logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #logos .row {
-
-        grid-template-columns: repeat(1, 0.2fr);
-        row-gap: 1rem;
-    }
-
-    #home .home-content {
-        margin-top: 3rem;
-
-    }
-
-    #home .home-content small {
-        font-size: 20px;
-    }
-
-    #news .row .col h2 {
-        font-size: 26px;
-
-    }
-
-    #home .home-content p {
-        margin: 5px 0 10px;
-        font-size: 20px;
-
-
-    }
-
-    #logos {
-        height: 2900px;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news {
-        height: 270px;
-    }
-
-    #commant .row,
-    #why .row,
-    #servecis .row,
-    #abuot .row,
-    #contact .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info .row {
-
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info {
-        height: 430px;
-    }
-
-    #info .row .col i {
-        font-size: 20px;
-        padding: 10px;
-
-    }
-
-    #info .row .col p {
-        font-size: 12px;
-    }
-
-    #call .call-content h2 {
-        font-size: 28px;
-
-    }
-
-    #call .call-content p {
-        margin: 10px 0;
-        font-size: 14px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        color: var(--blak);
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    p {
-        color: #1b1b1b;
-        font-size: 12px;
-        font-weight: 300;
-    }
-
-    .btn {
-
-        padding: 8px 30px;
-        font-size: 12px;
-
-        font-weight: 400;
-
-    }
-
-
-    #ktaib .row .col .list li {
-        font-size: 10PX;
-        font-weight: 500;
-        margin-bottom: 15px;
-
-
-    }
-
-    #home .home-content .col1 {
-        max-width: 1500px;
-        margin: auto;
-        padding: 0 4rem;
-    }
-
-
-
-}
-
-@media (max-width:414px) {
-    #logos .row .col img {
-        max-width: 360px;
-    }
-
-    #home .navbar nav {
-        flex-direction: column;
-
-    }
-
-    #home .navbar nav ul {
-
-        padding: 20px 0 0;
-    }
-
-    #home .navbar nav ul a {
-        margin: 0 7px;
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    #logos .row .col img {
-        max-width: 250px;
-    }
-
     #logos .logo .it {
-        max-width: 300px;
+        max-width: 350px;
     }
 
     #home .home-content img {
@@ -2037,11 +1866,11 @@ h5 {
     }
 
     #logos .row .col img {
-        max-width: 250px;
+        max-width: 300px;
     }
 
     #logos .logo .it {
-        max-width: 300px;
+        max-width: 350px;
     }
 
     #home .home-content img {
