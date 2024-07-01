@@ -196,6 +196,7 @@ header * {
   line-height: 1.6;
   color: var(--blak);
   font-weight: 400;
+  text-align: right;
 }
 
 #about img {
