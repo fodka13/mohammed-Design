@@ -363,8 +363,7 @@ header * {
 #gallery {
   background: url("./img/offer-background.jpg") center center/cover;
   padding: 8rem 0 6rem;
-  position: relative;
-  z-index: 1;
+
 }
 #gallery .contaner p{
  color: var(--whiteshado);
@@ -372,18 +371,6 @@ header * {
  font-weight: 400;
 }
 
-#gallery::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #0a3a49;
-  opacity: 0.6;
-  z-index: -1;
-
-}
 #gallery h2 {
   font-size: 40px;
   color: #fff;
@@ -400,8 +387,8 @@ header * {
 
 #gallery .img-gallery img {
   margin: 20px;
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 350px;
   border-radius: 15px;
   opacity: 0.8;
 }
