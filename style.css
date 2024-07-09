@@ -144,7 +144,65 @@ p {
 
 
 }
+header .content {
+    display: flex;
+    margin: 6rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75%; /* Add exmple of greeen background */
+  }
+  
+  header::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.6);
+  }
+  
+  header .content h1 {
+    font-size: 33px;
+    color: var(--bleu);
+  }
+  
+  header .content p {
+    color: #fff;
+    margin: 20px 0 40px;
+    font-weight: 400;
+text-align: center;
+  }
+  
+  header * {
+    z-index: 10;
+  }
+  header {
+    height: 100vh;
+    background: url("./imgs/فوتور3.png") center center/cover no-repeat;
+    position: relative;
+  }
+header .btn-primary {
+  border: 1px solid #fff;
+  color: var(--whiteshado);
+}
+header .btn-primary:hover{
+  background:var(--bb);
+}
 
+header::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.6);
+  }
+  
+  
+  
 #home .navbar nav ul a {
     margin: 0 10px;
     color: var(--whiteshado);
@@ -1129,7 +1187,7 @@ font-size: 20px;
 
     #home .navbar nav ul a {
         margin: 0 15px;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
     }
 
@@ -1165,177 +1223,6 @@ font-size: 20px;
 
 }
 
-@media (max-width:414px) {
-    #logos .row .col img {
-        max-width: 360px;
-    }
-
-    #home .navbar nav {
-        flex-direction: column;
-
-    }
-
-    #home .navbar nav ul {
-
-        padding: 20px 0 0;
-    }
-
-    #home .navbar nav ul a {
-        margin: 0 7px;
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    #logos .row .col img {
-        max-width: 250px;
-    }
-
-    #logos .logo .it {
-        max-width: 300px;
-    }
-
-    #home .home-content img {
-        display: none;
-
-    }
-
-    #logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #logos .row {
-
-        grid-template-columns: repeat(1, 0.2fr);
-        row-gap: 1rem;
-    }
-
-    #home .home-content {
-        margin-top: 3rem;
-
-    }
-
-    #home .home-content small {
-        font-size: 20px;
-    }
-
-    #news .row .col h2 {
-        font-size: 26px;
-
-    }
-
-    #home .home-content p {
-        margin: 5px 0 10px;
-        font-size: 20px;
-
-
-    }
-
-    #logos {
-        height: 2900px;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news {
-        height: 270px;
-    }
-
-    #commant .row,
-    #why .row,
-    #servecis .row,
-    #abuot .row,
-    #contact .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info .row {
-
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info {
-        height: 430px;
-    }
-
-    #info .row .col i {
-        font-size: 20px;
-        padding: 10px;
-
-    }
-
-    #info .row .col p {
-        font-size: 12px;
-    }
-
-    #call .call-content h2 {
-        font-size: 28px;
-
-    }
-
-    #call .call-content p {
-        margin: 10px 0;
-        font-size: 14px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        color: var(--blak);
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    p {
-        color: #1b1b1b;
-        font-size: 12px;
-        font-weight: 300;
-    }
-
-    .btn {
-
-        padding: 8px 30px;
-        font-size: 12px;
-
-        font-weight: 400;
-
-    }
-
-
-    #ktaib .row .col .list li {
-        font-size: 10PX;
-        font-weight: 500;
-        margin-bottom: 15px;
-
-
-    }
-
-    #home .home-content .col1 {
-        max-width: 1500px;
-        margin: auto;
-        padding: 0 4rem;
-    }
-
-
-
-}
 
 @media (max-width:414px) {
     #logos .row .col img {
@@ -1354,351 +1241,7 @@ font-size: 20px;
 
     #home .navbar nav ul a {
         margin: 0 7px;
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    #logos .row .col img {
-        max-width: 250px;
-    }
-
-    #logos .logo .it {
-        max-width: 300px;
-    }
-
-    #home .home-content img {
-        display: none;
-
-    }
-
-    #logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #logos .row {
-
-        grid-template-columns: repeat(1, 0.2fr);
-        row-gap: 1rem;
-    }
-
-    #home .home-content {
-        margin-top: 3rem;
-
-    }
-
-    #home .home-content small {
-        font-size: 20px;
-    }
-
-    #news .row .col h2 {
-        font-size: 26px;
-
-    }
-
-    #home .home-content p {
-        margin: 5px 0 10px;
-        font-size: 20px;
-
-
-    }
-
-    #logos {
-        height: 2900px;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news {
-        height: 270px;
-    }
-
-    #commant .row,
-    #why .row,
-    #servecis .row,
-    #abuot .row,
-    #contact .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info .row {
-
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info {
-        height: 430px;
-    }
-
-    #info .row .col i {
-        font-size: 20px;
-        padding: 10px;
-
-    }
-
-    #info .row .col p {
-        font-size: 12px;
-    }
-
-    #call .call-content h2 {
-        font-size: 28px;
-
-    }
-
-    #call .call-content p {
-        margin: 10px 0;
-        font-size: 14px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        color: var(--blak);
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    p {
-        color: #1b1b1b;
-        font-size: 12px;
-        font-weight: 300;
-    }
-
-    .btn {
-
-        padding: 8px 30px;
-        font-size: 12px;
-
-        font-weight: 400;
-
-    }
-
-
-    #ktaib .row .col .list li {
-        font-size: 10PX;
-        font-weight: 500;
-        margin-bottom: 15px;
-
-
-    }
-
-    #home .home-content .col1 {
-        max-width: 1500px;
-        margin: auto;
-        padding: 0 4rem;
-    }
-
-
-
-}
-
-@media (max-width:414px) {
-    #logos .row .col img {
-        max-width: 360px;
-    }
-
-    #home .navbar nav {
-        flex-direction: column;
-
-    }
-
-    #home .navbar nav ul {
-
-        padding: 20px 0 0;
-    }
-
-    #home .navbar nav ul a {
-        margin: 0 7px;
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    #logos .row .col img {
-        max-width: 250px;
-    }
-
-    #logos .logo .it {
-        max-width: 300px;
-    }
-
-    #home .home-content img {
-        display: none;
-
-    }
-
-    #logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #logos .row {
-
-        grid-template-columns: repeat(1, 0.2fr);
-        row-gap: 1rem;
-    }
-
-    #home .home-content {
-        margin-top: 3rem;
-
-    }
-
-    #home .home-content small {
-        font-size: 20px;
-    }
-
-    #news .row .col h2 {
-        font-size: 26px;
-
-    }
-
-    #home .home-content p {
-        margin: 5px 0 10px;
-        font-size: 20px;
-
-
-    }
-
-    #logos {
-        height: 2900px;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #news {
-        height: 270px;
-    }
-
-    #commant .row,
-    #why .row,
-    #servecis .row,
-    #abuot .row,
-    #contact .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #footer .footer-top .row {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info .row {
-
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 3rem;
-    }
-
-    #info {
-        height: 430px;
-    }
-
-    #info .row .col i {
-        font-size: 20px;
-        padding: 10px;
-
-    }
-
-    #info .row .col p {
-        font-size: 12px;
-    }
-
-    #call .call-content h2 {
-        font-size: 28px;
-
-    }
-
-    #call .call-content p {
-        margin: 10px 0;
-        font-size: 14px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        color: var(--blak);
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    p {
-        color: #1b1b1b;
-        font-size: 12px;
-        font-weight: 300;
-    }
-
-    .btn {
-
-        padding: 8px 30px;
-        font-size: 12px;
-
-        font-weight: 400;
-
-    }
-
-
-    #ktaib .row .col .list li {
-        font-size: 10PX;
-        font-weight: 500;
-        margin-bottom: 15px;
-
-
-    }
-
-    #home .home-content .col1 {
-        max-width: 1500px;
-        margin: auto;
-        padding: 0 4rem;
-    }
-
-
-
-}
-
-@media (max-width:414px) {
-    #logos .row .col img {
-        max-width: 360px;
-    }
-
-    #home .navbar nav {
-        flex-direction: column;
-
-    }
-
-    #home .navbar nav ul {
-
-        padding: 20px 0 0;
-    }
-
-    #home .navbar nav ul a {
-        margin: 0 7px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 400;
     }
 
@@ -1869,7 +1412,7 @@ font-size: 20px;
 
     #home .navbar nav ul a {
         margin: 0 7px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 400;
     }
 
@@ -1975,10 +1518,9 @@ font-size: 20px;
         font-size: 28px;
 
     }
-
     #call .call-content p {
         margin: 10px 0;
-        font-size: 22px;
+        font-size: 14px;
     }
 
     h1,
