@@ -31,6 +31,7 @@
 1. Typography
 ------------------
 ----------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=El+Messiri:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat-Arabic:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
@@ -53,7 +54,7 @@ h1{
   padding: 0;
   margin: 0 0 20px 0;
   font-weight: 200;
-  line-height: 1.3em;  font-family: "Montserrat-Arabic", sans-serif;
+  line-height: 1.3em;   font-family: "Alexandria", sans-serif;
 
   
 }
@@ -75,7 +76,7 @@ h6 {
 .cs-primary_font {
   font-family: "Poppins", sans-serif;
 
-  font-family: "Montserrat-Arabic", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 
 .cs-secondary_font {
