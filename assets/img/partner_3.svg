@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="129.27141mm"
+   height="36.352364mm"
+   viewBox="0 0 129.2714 36.352364"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="partner_2.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="129.27141"
+       height="36.352364"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="طبقة 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(431.74691,-1495.6112)">
+    <g
+       id="g83"
+       transform="matrix(6.5975874,0,0,6.5975874,-999.20936,632.55073)">
+      <path
+         d="m 86.0106,130.81456 1.063419,0.24946 1.204538,0.28263 1.213021,0.28455 0.402927,1.08925 -1.055325,-0.44803 0.558698,0.92268 0.550603,0.9088 1.176393,1.94292 -0.424521,-1.14747 -0.40292,-1.08925 0.886438,0.60574 -0.241755,-1.25082 -0.241763,-1.25041 -0.212835,-1.10005 h -0.205895 -0.0067 -0.746089 -0.339305 -0.394444 -0.01231 -0.746478 -0.07981 -0.646227 -0.02008 -0.452276 -0.293811 z"
+         style="fill:#ff2a2a;stroke-width:0.197415;stroke-dashoffset:8"
+         id="path65" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:3.08509px;line-height:1.41587px;font-family:'Jeko DEMO';-inkscape-font-specification:'Jeko DEMO Ultra-Bold';text-align:start;letter-spacing:0.212274px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.212274;stroke-dashoffset:8"
+         x="91.923058"
+         y="133.1277"
+         id="text79"><tspan
+           sodipodi:role="line"
+           id="tspan79"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Jeko DEMO';-inkscape-font-specification:'Jeko DEMO Ultra-Bold';fill:#ffffff;stroke:none;stroke-width:0.212274"
+           x="91.923058"
+           y="133.1277">Reo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:3.08509px;line-height:1.41587px;font-family:'Jeko DEMO';-inkscape-font-specification:'Jeko DEMO Ultra-Bold';text-align:start;letter-spacing:0.212274px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.212274;stroke-dashoffset:8"
+         x="91.923058"
+         y="135.67664"
+         id="text80"><tspan
+           sodipodi:role="line"
+           id="tspan80"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Jeko DEMO';-inkscape-font-specification:'Jeko DEMO Ultra-Bold';fill:#ffffff;stroke:none;stroke-width:0.212274"
+           x="91.923058"
+           y="135.67664">Delivery</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:0.251385px;line-height:0.115371px;font-family:'Jeko DEMO';-inkscape-font-specification:'Jeko DEMO Ultra-Bold';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.0172969;stroke-dashoffset:8"
+         x="90.941002"
+         y="131.06937"
+         id="text83"><tspan
+           sodipodi:role="line"
+           id="tspan83"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Jeko DEMO';-inkscape-font-specification:'Jeko DEMO Ultra-Bold';letter-spacing:0px;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.0172969"
+           x="90.941002"
+           y="131.06937">R</tspan></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#ff2a2a;stroke-width:0.0264583;stroke-dasharray:none;stroke-dashoffset:8;stroke-opacity:1"
+         id="path83-1"
+         cx="91.017044"
+         cy="130.98138"
+         r="0.16682772" />
+    </g>
+  </g>
+</svg>
