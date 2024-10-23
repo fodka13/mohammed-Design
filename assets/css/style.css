@@ -166,9 +166,30 @@ a:hover {
   color: #008080ff;
 }
 
+.row{
+  display: flex;
+  max-width: 100%;
+
+
+}
+
+.item {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-size: 20px;
+  width: 100%;
+
+
+} 
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 108%;
+}
 table {
   width: 100%;
   margin-bottom: 25px;
+ 
 }
 table th {
   font-weight: 600;
